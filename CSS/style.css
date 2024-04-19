@@ -52,8 +52,8 @@ header {
 .grid {
     display: grid;
 }
-.coluna-4 {
-    grid-template-columns: repeat(4, 4fr);
+.coluna-3 {
+    grid-template-columns: repeat(3, 4fr);
     gap: 10px;
 }
 #card {
@@ -80,14 +80,14 @@ header {
     width: 32%;
 }
 
+.grid-footer {
+    grid-template-columns: 3fr 3fr 5fr;
+}
+
 footer{
     background-color: rgb(65, 65, 65);
     color: white;
     padding: 15px 15%;
-}
-footer ul {
-    display: flex;
-    justify-content: space-evenly;
 }
 
 footer ul li ul {
@@ -101,6 +101,7 @@ footer ul li ul li {
     padding: 10px 0;
 }
 #foologo {
+    display: grid;
     justify-content: center;
 }
 
