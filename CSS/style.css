@@ -1,4 +1,3 @@
-
 body {
     background-color: rgb(189, 187, 187);
 }
@@ -53,7 +52,7 @@ header {
     display: grid;
 }
 .coluna-3 {
-    grid-template-columns: repeat(3, 4fr);
+    grid-template-columns: repeat(3, 32%);
     gap: 10px;
 }
 #card {
@@ -81,7 +80,7 @@ header {
 }
 
 .grid-footer {
-    grid-template-columns: 20% 20% 60%;
+    grid-template-columns: 30% 20% 50%;
 }
 
 footer{
@@ -90,8 +89,7 @@ footer{
     padding: 15px 15%;
 }
 
-footer ul li ul {
-    display: block;    
+footer ul li ul {    
     color: rgb(192, 192, 192);
     align-items: center;
 }
@@ -106,8 +104,8 @@ footer ul li ul li {
 }
 
 #foologo img {
-    width: 150px;
-    height: 150px;
+    width: 45%;
+    margin: auto;
 }
 #foomenu, #foocontato {
     padding-left: 10px;
