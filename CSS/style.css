@@ -81,7 +81,7 @@ header {
 }
 
 .grid-footer {
-    grid-template-columns: 3fr 3fr 5fr;
+    grid-template-columns: 20% 20% 60%;
 }
 
 footer{
